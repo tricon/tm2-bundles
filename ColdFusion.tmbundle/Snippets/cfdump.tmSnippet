@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>content</key>
+		<string>&lt;cfdump${1: var="#${2:variable}#"${3: expand="${4:[ ]}" label="${5:[ ]}" top="${6:[ ]}"}}/&gt;$0</string>
+	</dict>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>EA2AA961-32E7-4B4B-85C8-0F458AC6E671</string>
+</dict>
+</plist>
