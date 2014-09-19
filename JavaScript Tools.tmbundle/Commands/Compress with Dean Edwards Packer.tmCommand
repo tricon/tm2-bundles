@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+"${TM_RUBY:-ruby}" "$TM_BUNDLE_SUPPORT/bin/compress_dean_edwards.rb"</string>
+		<key>inputFormat</key>
+		<string>text</string>
+		<key>outputCaret</key>
+		<string>heuristic</string>
+		<key>outputFormat</key>
+		<string>text</string>
+		<key>outputLocation</key>
+		<string>replaceInput</string>
+		<key>version</key>
+		<integer>2</integer>
+	</dict>
+	<key>deleted</key>
+	<array>
+		<string>keyEquivalent</string>
+		<string>output</string>
+	</array>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>16D885D1-78B1-47F2-9BCC-1F27B77B987E</string>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findString</key>
+				<string>&lt;((cfinvoke|cfset|cfinclude)[^/\n]+)&gt;$</string>
+				<key>regularExpression</key>
+				<true/>
+				<key>replaceString</key>
+				<string>&lt;$1/&gt;</string>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~c</string>
+	<key>name</key>
+	<string>Cleanup ColdFusion Tags</string>
+	<key>uuid</key>
+	<string>B5CD6731-5738-4B77-B5D0-00699A49A8CA</string>
+</dict>
+</plist>

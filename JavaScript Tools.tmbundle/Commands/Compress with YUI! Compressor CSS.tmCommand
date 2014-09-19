@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changed</key>
+	<dict>
+		<key>command</key>
+		<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+cat &gt;'/tmp/compress_this_file.css';
+java -jar "$TM_BUNDLE_SUPPORT/bin/yuicompressor.jar" --charset utf8 --preserve-semi --type=css '/tmp/compress_this_file.css' -o '/tmp/compress_this_file.css';
+cat /tmp/compress_this_file.css;</string>
+		<key>inputFormat</key>
+		<string>text</string>
+		<key>outputCaret</key>
+		<string>heuristic</string>
+		<key>outputFormat</key>
+		<string>text</string>
+		<key>outputLocation</key>
+		<string>replaceInput</string>
+		<key>version</key>
+		<integer>2</integer>
+	</dict>
+	<key>deleted</key>
+	<array>
+		<string>keyEquivalent</string>
+		<string>output</string>
+	</array>
+	<key>isDelta</key>
+	<true/>
+	<key>uuid</key>
+	<string>14281367-C8CB-4FE4-AD3B-E23B153F528D</string>
+</dict>
+</plist>
