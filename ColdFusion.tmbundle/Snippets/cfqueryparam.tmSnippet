@@ -5,7 +5,7 @@
 	<key>changed</key>
 	<dict>
 		<key>content</key>
-		<string>&lt;cfqueryparam value="$1"${2: CFSQLType="${3:[ ]}" maxLength="${4:[ ]}" scale="${5:[ ]}" null="${6:[ ]}" list="${7:[ ]}" separator="${8:[ ]}"}/&gt;$0</string>
+		<string>&lt;cfqueryparam value="$1" cfsqltype="${2:[ ]}" ${3:maxLength="${4:[ ]}" scale="${5:[ ]}" null="${6:[ ]}" list="${7:[ ]}" separator="${8:[ ]}"}/&gt;$0</string>
 	</dict>
 	<key>isDelta</key>
 	<true/>

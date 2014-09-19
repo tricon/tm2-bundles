@@ -5,12 +5,10 @@
 	<key>changed</key>
 	<dict>
 		<key>scope</key>
-		<string>source.css, source.scss</string>
+		<string>source.css, source.scss, text.html</string>
 		<key>tabTrigger</key>
 		<string>ta</string>
 	</dict>
-	<key>deleted</key>
-	<array/>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
