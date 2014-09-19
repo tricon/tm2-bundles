@@ -4,14 +4,12 @@
 <dict>
 	<key>changed</key>
 	<dict>
-		<key>outputCaret</key>
-		<string>heuristic</string>
-		<key>semanticClass</key>
-		<string>callback.document.export</string>
+		<key>content</key>
+		<string>&lt;cfparam name="$1"${2: type="${3:[string]}" default="${4:[ ]}"}/&gt;$0</string>
 	</dict>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>FDFFAE3A-3303-4E26-953D-87214C480B00</string>
+	<string>FA01E47F-EB01-4FE1-9EB6-96FDEB923E70</string>
 </dict>
 </plist>

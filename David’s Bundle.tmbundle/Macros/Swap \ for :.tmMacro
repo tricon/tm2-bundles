@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>replaceAllInSelection:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^@/</string>
+	<key>name</key>
+	<string>Swap \ for /</string>
+	<key>uuid</key>
+	<string>A55F2169-3352-4E4A-9E34-182024913CBE</string>
+</dict>
+</plist>

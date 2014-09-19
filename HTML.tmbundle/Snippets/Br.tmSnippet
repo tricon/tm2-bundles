@@ -4,12 +4,12 @@
 <dict>
 	<key>changed</key>
 	<dict>
-		<key>isDeleted</key>
-		<true/>
+		<key>content</key>
+		<string>&lt;br${TM_XHTML}/&gt;</string>
 	</dict>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>102BE3F9-8E63-4BAA-B8A0-EED6E986E8C5</string>
+	<string>3E008E42-A5C9-11D9-9BCD-000D93C8BE28</string>
 </dict>
 </plist>
